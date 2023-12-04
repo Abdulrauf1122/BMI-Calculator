@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 30%;
+    margin: 10px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.report-container {
+    width: 20%;
+    margin: 20px auto;
+    background-color: #dfd9d9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.report-container h2 {
+    color: #000000;
+    background-color: aqua;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.report-container pre {
+    white-space: pre-wrap;
+}
+
+
+form {
+    margin-bottom: 1em;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+input[type=submit]:hover {
+    opacity: 1;
+}
+
+#result {
+    font-weight: bold;
+}
